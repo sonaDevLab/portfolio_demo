@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown, Star } from "lucide-react";
-import { FaJava } from "react-icons/fa";
-import { SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb } from "react-icons/si";
+import { SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb } from "react-icons/si";
 import { PERSONAL_INFO, STATS } from "../../utils/constants.js";
 import { scrollToSection } from "../../hooks/useScrollSpy.js";
 import FadeIn from "../animations/FadeIn.jsx";

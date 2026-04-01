@@ -11,16 +11,14 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCIAL_LINKS = {
-    github: 'https://github.com',
-    linkedin: 'https://www.linkedin.com',
-    twitter: 'https://twitter.com',
+    github: 'https://github.com/sonaDevLab',
+    linkedin: 'https://www.linkedin.com/in/sona-ivanyan-8198a7224/',
 };
 
 export const STATS = [
     { label: 'Years Experience', value: '2+' },
-    { label: 'Projects Completed', value: '15+' },
+    { label: 'Projects Completed', value: '5+' },
     { label: 'Technologies', value: '10+' },
-    { label: 'Client Satisfaction', value: '98%' },
 ];
 
 export const ABOUT_STATS = [

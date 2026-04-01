@@ -8,21 +8,22 @@ const Skills = () => {
     //Categorize skills
     const skillCategories = {
       'Frontend Development': [
-          skills.find(s => s.name === 'React.js'),
+          skills.find(s => s.name === 'React'),
           skills.find(s => s.name === 'JavaScript'),
-          skills.find(s => s.name === 'TypeScript'),
-          skills.find(s => s.name === 'Next.js'),
           skills.find(s => s.name === 'Tailwind CSS'),
-          skills.find(s => s.name === 'Redux'),
       ].filter(Boolean),
       'Backend & APIs': [
+          skills.find(s => s.name === 'Java'),
+          skills.find(s => s.name === 'Kotlin'),
+          skills.find(s => s.name === 'Spring Boot'),
           skills.find(s => s.name === 'Node.js'),
           skills.find(s => s.name === 'REST APIs'),
+          skills.find(s => s.name === 'PostgreSQL'),
       ].filter(Boolean),
       'Tools & Others': [
           skills.find(s => s.name === 'Git & GitHub'),
           skills.find(s => s.name === 'Responsive Design'),
-          skills.find(s => s.name === 'Figma'),
+          skills.find(s => s.name === 'Android Studio'),
           skills.find(s => s.name === 'Vite'),
       ].filter(Boolean),
     };
@@ -82,7 +83,7 @@ const Skills = () => {
 
                             {/* Skills List */}
                             <div className='space-y-5'>
-                                {categorySkills.map((skill, skillIndex) => {
+                                {categorySkills.map((skill) => {
                                     const IconComponent = Icons[skill.icon] || Icons.Code2;
                                     const proficiency = getProficiencyLevel(skill.level);
 

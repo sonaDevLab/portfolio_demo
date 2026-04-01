@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ChevronDown, Star } from "lucide-react";
-import { SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { SiJavascript, SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiMongodb } from "react-icons/si";
 import { PERSONAL_INFO, STATS } from "../../utils/constants.js";
 import { scrollToSection } from "../../hooks/useScrollSpy.js";
 import FadeIn from "../animations/FadeIn.jsx";
@@ -84,6 +85,7 @@ const Hero = () => {
                                 <div className='absolute bottom-6 left-6 z-20'>
                                     <FadeIn delay={500}>
                                         <div className='flex items-center gap-4 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3'>
+
                                             <div className='w-6 h-6 flex items-center justify-center hover:scale-110 transition-transform duration-300'>
                                                 <SiReact className='w-full h-full text-primary'/>
                                             </div>
